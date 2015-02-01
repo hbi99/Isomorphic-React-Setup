@@ -1,0 +1,20 @@
+{
+  "name": "Isomorphic-React-Setup",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Hakan Bilgin",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.9.2",
+    "cookie-parser": "^1.3.3",
+    "debug": "^2.1.0",
+    "express": "^4.10.2",
+    "morgan": "^1.5.0",
+    "node-jsx": "^0.12.4",
+    "react": "^0.12.1",
+    "react-document-title": "^0.1.3",
+    "react-router": "^0.11.4"
+  },
+  "devDependencies": {
+  }
+}
