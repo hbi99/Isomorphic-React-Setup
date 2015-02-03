@@ -7,6 +7,6 @@ var routes = require('./routes.jsx');
 
 document.addEventListener("DOMContentLoaded", function(event) {
     Router.run(routes, Router.HistoryLocation, function (Handler, state) {
-      React.render(<Handler />, document.body);
+    	React.render(<Handler />, document.body);
     });
 });
