@@ -1,3 +1,3 @@
 module.exports = [
-	{ "id": "verona", "name": "Lasagna (Verona)" }
+	{ "id": "verona", "name": "Verona" }
 ];

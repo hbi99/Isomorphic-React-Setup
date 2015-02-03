@@ -3,7 +3,7 @@ var webpack = require('webpack');
 module.exports = {
   // Entry point for static analyzer:
   entry: [
-    'webpack-dev-server/client?http://localhost:3001',
+    'webpack-dev-server/client?http://localhost:4001',
     'webpack/hot/dev-server',
     './client.jsx'
   ],
@@ -17,7 +17,7 @@ module.exports = {
     filename: 'main.js',
 
     // Path to use in HTML
-    publicPath: 'http://localhost:3001/js/'
+    publicPath: 'http://localhost:4001/js/'
   },
 
   plugins: [
