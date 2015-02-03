@@ -19,7 +19,7 @@ var paths = {
 		build:    'build/',
 		public:   'public/',
 		sass:     'style/main.scss',
-		server:   ['package.json', 'app.js', '*.jsx', 'cachebuster.js', 'components/**/*.jsx']
+		server:   ['package.json', 'server/app.js', 'server/config.js', 'server/*.jsx', 'server/cachebuster.js', 'components/**/*.jsx']
 };
 
 var pkg = require('./package.json');

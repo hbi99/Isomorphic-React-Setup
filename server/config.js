@@ -4,5 +4,9 @@ module.exports = {
 		"ws_port": 4000,
 		"wp_port": 4001
 	},
-	"production": {}
+	"production": {
+		"domain": "localhost",
+		"ws_port": 4000,
+		"wp_port": 4001
+	}
 };
