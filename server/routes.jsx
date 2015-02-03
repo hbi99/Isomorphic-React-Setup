@@ -7,10 +7,10 @@ var DefaultRoute  = Router.DefaultRoute;
 var NotFoundRoute = Router.NotFoundRoute;
 
 /* Components */
-var App      = require('./components/App.jsx');
-var Index    = require('./components/Index.jsx');
-var Place    = require('./components/Place.jsx');
-var NotFound = require('./components/NotFound.jsx');
+var App      = require('../components/App.jsx');
+var Index    = require('../components/Index.jsx');
+var Place    = require('../components/Place.jsx');
+var NotFound = require('../components/NotFound.jsx');
 
 var routes = (
   <Route name="places" path="/" handler={App}>

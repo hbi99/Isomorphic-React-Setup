@@ -23,4 +23,4 @@ var webpackServer = new WebpackDevServer(webpack(webpackConfig), {
 
 // Watch public dir with livereload
 var lr = livereload.createServer();
-lr.watch(__dirname + '/public');
+lr.watch(__dirname + '/../public');
